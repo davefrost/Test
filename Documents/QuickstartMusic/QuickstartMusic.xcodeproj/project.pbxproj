@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2786E37A176EF1C300F85D2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2786E379176EF1C300F85D2F /* UIKit.framework */; };
+		2786E37C176EF1C300F85D2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2786E37B176EF1C300F85D2F /* Foundation.framework */; };
+		2786E37E176EF1C300F85D2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2786E37D176EF1C300F85D2F /* CoreGraphics.framework */; };
+		2786E384176EF1C300F85D2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2786E382176EF1C300F85D2F /* InfoPlist.strings */; };
+		2786E386176EF1C300F85D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786E385176EF1C300F85D2F /* main.m */; };
+		2786E38A176EF1C300F85D2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786E389176EF1C300F85D2F /* AppDelegate.m */; };
+		2786E38C176EF1C300F85D2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2786E38B176EF1C300F85D2F /* Default.png */; };
+		2786E38E176EF1C300F85D2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2786E38D176EF1C300F85D2F /* Default@2x.png */; };
+		2786E390176EF1C300F85D2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2786E38F176EF1C300F85D2F /* Default-568h@2x.png */; };
+		2786E393176EF1C300F85D2F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2786E391176EF1C300F85D2F /* MainStoryboard_iPhone.storyboard */; };
+		2786E396176EF1C300F85D2F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2786E394176EF1C300F85D2F /* MainStoryboard_iPad.storyboard */; };
+		2786E399176EF1C300F85D2F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786E398176EF1C300F85D2F /* MainViewController.m */; };
+		2786E39C176EF1C300F85D2F /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786E39B176EF1C300F85D2F /* FlipsideViewController.m */; };
+		2786E3A4176EF1C300F85D2F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2786E3A3176EF1C300F85D2F /* SenTestingKit.framework */; };
+		2786E3A5176EF1C300F85D2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2786E379176EF1C300F85D2F /* UIKit.framework */; };
+		2786E3A6176EF1C300F85D2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2786E37B176EF1C300F85D2F /* Foundation.framework */; };
+		2786E3AE176EF1C300F85D2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2786E3AC176EF1C300F85D2F /* InfoPlist.strings */; };
+		2786E3B1176EF1C300F85D2F /* QuickstartMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786E3B0176EF1C300F85D2F /* QuickstartMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2786E3A7176EF1C300F85D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2786E36E176EF1C300F85D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2786E375176EF1C300F85D2F;
+			remoteInfo = QuickstartMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2786E376176EF1C300F85D2F /* QuickstartMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2786E379176EF1C300F85D2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2786E37B176EF1C300F85D2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2786E37D176EF1C300F85D2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2786E381176EF1C300F85D2F /* QuickstartMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickstartMusic-Info.plist"; sourceTree = "<group>"; };
+		2786E383176EF1C300F85D2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2786E385176EF1C300F85D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2786E387176EF1C300F85D2F /* QuickstartMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickstartMusic-Prefix.pch"; sourceTree = "<group>"; };
+		2786E388176EF1C300F85D2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2786E389176EF1C300F85D2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2786E38B176EF1C300F85D2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2786E38D176EF1C300F85D2F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2786E38F176EF1C300F85D2F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2786E392176EF1C300F85D2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2786E395176EF1C300F85D2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2786E397176EF1C300F85D2F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2786E398176EF1C300F85D2F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2786E39A176EF1C300F85D2F /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		2786E39B176EF1C300F85D2F /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		2786E3A2176EF1C300F85D2F /* QuickstartMusicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartMusicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2786E3A3176EF1C300F85D2F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2786E3AB176EF1C300F85D2F /* QuickstartMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickstartMusicTests-Info.plist"; sourceTree = "<group>"; };
+		2786E3AD176EF1C300F85D2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2786E3AF176EF1C300F85D2F /* QuickstartMusicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickstartMusicTests.h; sourceTree = "<group>"; };
+		2786E3B0176EF1C300F85D2F /* QuickstartMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickstartMusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2786E373176EF1C300F85D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2786E37A176EF1C300F85D2F /* UIKit.framework in Frameworks */,
+				2786E37C176EF1C300F85D2F /* Foundation.framework in Frameworks */,
+				2786E37E176EF1C300F85D2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2786E39E176EF1C300F85D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2786E3A4176EF1C300F85D2F /* SenTestingKit.framework in Frameworks */,
+				2786E3A5176EF1C300F85D2F /* UIKit.framework in Frameworks */,
+				2786E3A6176EF1C300F85D2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2786E36D176EF1C300F85D2F = {
+			isa = PBXGroup;
+			children = (
+				2786E37F176EF1C300F85D2F /* QuickstartMusic */,
+				2786E3A9176EF1C300F85D2F /* QuickstartMusicTests */,
+				2786E378176EF1C300F85D2F /* Frameworks */,
+				2786E377176EF1C300F85D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2786E377176EF1C300F85D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2786E376176EF1C300F85D2F /* QuickstartMusic.app */,
+				2786E3A2176EF1C300F85D2F /* QuickstartMusicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2786E378176EF1C300F85D2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2786E379176EF1C300F85D2F /* UIKit.framework */,
+				2786E37B176EF1C300F85D2F /* Foundation.framework */,
+				2786E37D176EF1C300F85D2F /* CoreGraphics.framework */,
+				2786E3A3176EF1C300F85D2F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2786E37F176EF1C300F85D2F /* QuickstartMusic */ = {
+			isa = PBXGroup;
+			children = (
+				2786E388176EF1C300F85D2F /* AppDelegate.h */,
+				2786E389176EF1C300F85D2F /* AppDelegate.m */,
+				2786E391176EF1C300F85D2F /* MainStoryboard_iPhone.storyboard */,
+				2786E394176EF1C300F85D2F /* MainStoryboard_iPad.storyboard */,
+				2786E397176EF1C300F85D2F /* MainViewController.h */,
+				2786E398176EF1C300F85D2F /* MainViewController.m */,
+				2786E39A176EF1C300F85D2F /* FlipsideViewController.h */,
+				2786E39B176EF1C300F85D2F /* FlipsideViewController.m */,
+				2786E380176EF1C300F85D2F /* Supporting Files */,
+			);
+			path = QuickstartMusic;
+			sourceTree = "<group>";
+		};
+		2786E380176EF1C300F85D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2786E381176EF1C300F85D2F /* QuickstartMusic-Info.plist */,
+				2786E382176EF1C300F85D2F /* InfoPlist.strings */,
+				2786E385176EF1C300F85D2F /* main.m */,
+				2786E387176EF1C300F85D2F /* QuickstartMusic-Prefix.pch */,
+				2786E38B176EF1C300F85D2F /* Default.png */,
+				2786E38D176EF1C300F85D2F /* Default@2x.png */,
+				2786E38F176EF1C300F85D2F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2786E3A9176EF1C300F85D2F /* QuickstartMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2786E3AF176EF1C300F85D2F /* QuickstartMusicTests.h */,
+				2786E3B0176EF1C300F85D2F /* QuickstartMusicTests.m */,
+				2786E3AA176EF1C300F85D2F /* Supporting Files */,
+			);
+			path = QuickstartMusicTests;
+			sourceTree = "<group>";
+		};
+		2786E3AA176EF1C300F85D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2786E3AB176EF1C300F85D2F /* QuickstartMusicTests-Info.plist */,
+				2786E3AC176EF1C300F85D2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2786E375176EF1C300F85D2F /* QuickstartMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2786E3B4176EF1C300F85D2F /* Build configuration list for PBXNativeTarget "QuickstartMusic" */;
+			buildPhases = (
+				2786E372176EF1C300F85D2F /* Sources */,
+				2786E373176EF1C300F85D2F /* Frameworks */,
+				2786E374176EF1C300F85D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickstartMusic;
+			productName = QuickstartMusic;
+			productReference = 2786E376176EF1C300F85D2F /* QuickstartMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2786E3A1176EF1C300F85D2F /* QuickstartMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2786E3B7176EF1C300F85D2F /* Build configuration list for PBXNativeTarget "QuickstartMusicTests" */;
+			buildPhases = (
+				2786E39D176EF1C300F85D2F /* Sources */,
+				2786E39E176EF1C300F85D2F /* Frameworks */,
+				2786E39F176EF1C300F85D2F /* Resources */,
+				2786E3A0176EF1C300F85D2F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2786E3A8176EF1C300F85D2F /* PBXTargetDependency */,
+			);
+			name = QuickstartMusicTests;
+			productName = QuickstartMusicTests;
+			productReference = 2786E3A2176EF1C300F85D2F /* QuickstartMusicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2786E36E176EF1C300F85D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dave Frost";
+			};
+			buildConfigurationList = 2786E371176EF1C300F85D2F /* Build configuration list for PBXProject "QuickstartMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2786E36D176EF1C300F85D2F;
+			productRefGroup = 2786E377176EF1C300F85D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2786E375176EF1C300F85D2F /* QuickstartMusic */,
+				2786E3A1176EF1C300F85D2F /* QuickstartMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2786E374176EF1C300F85D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2786E384176EF1C300F85D2F /* InfoPlist.strings in Resources */,
+				2786E38C176EF1C300F85D2F /* Default.png in Resources */,
+				2786E38E176EF1C300F85D2F /* Default@2x.png in Resources */,
+				2786E390176EF1C300F85D2F /* Default-568h@2x.png in Resources */,
+				2786E393176EF1C300F85D2F /* MainStoryboard_iPhone.storyboard in Resources */,
+				2786E396176EF1C300F85D2F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2786E39F176EF1C300F85D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2786E3AE176EF1C300F85D2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2786E3A0176EF1C300F85D2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2786E372176EF1C300F85D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2786E386176EF1C300F85D2F /* main.m in Sources */,
+				2786E38A176EF1C300F85D2F /* AppDelegate.m in Sources */,
+				2786E399176EF1C300F85D2F /* MainViewController.m in Sources */,
+				2786E39C176EF1C300F85D2F /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2786E39D176EF1C300F85D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2786E3B1176EF1C300F85D2F /* QuickstartMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2786E3A8176EF1C300F85D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2786E375176EF1C300F85D2F /* QuickstartMusic */;
+			targetProxy = 2786E3A7176EF1C300F85D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2786E382176EF1C300F85D2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2786E383176EF1C300F85D2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2786E391176EF1C300F85D2F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2786E392176EF1C300F85D2F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2786E394176EF1C300F85D2F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2786E395176EF1C300F85D2F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2786E3AC176EF1C300F85D2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2786E3AD176EF1C300F85D2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2786E3B2176EF1C300F85D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2786E3B3176EF1C300F85D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2786E3B5176EF1C300F85D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickstartMusic/QuickstartMusic-Prefix.pch";
+				INFOPLIST_FILE = "QuickstartMusic/QuickstartMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2786E3B6176EF1C300F85D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickstartMusic/QuickstartMusic-Prefix.pch";
+				INFOPLIST_FILE = "QuickstartMusic/QuickstartMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2786E3B8176EF1C300F85D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickstartMusic.app/QuickstartMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickstartMusic/QuickstartMusic-Prefix.pch";
+				INFOPLIST_FILE = "QuickstartMusicTests/QuickstartMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2786E3B9176EF1C300F85D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickstartMusic.app/QuickstartMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickstartMusic/QuickstartMusic-Prefix.pch";
+				INFOPLIST_FILE = "QuickstartMusicTests/QuickstartMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2786E371176EF1C300F85D2F /* Build configuration list for PBXProject "QuickstartMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2786E3B2176EF1C300F85D2F /* Debug */,
+				2786E3B3176EF1C300F85D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2786E3B4176EF1C300F85D2F /* Build configuration list for PBXNativeTarget "QuickstartMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2786E3B5176EF1C300F85D2F /* Debug */,
+				2786E3B6176EF1C300F85D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2786E3B7176EF1C300F85D2F /* Build configuration list for PBXNativeTarget "QuickstartMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2786E3B8176EF1C300F85D2F /* Debug */,
+				2786E3B9176EF1C300F85D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2786E36E176EF1C300F85D2F /* Project object */;
+}
